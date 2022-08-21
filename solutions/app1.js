@@ -3,10 +3,12 @@ const user = {
   lastName: 'Doe',
 };
 
+const { lastName = 'unknown', firstName = 'unknown', job = 'unknown' } = user;
+
 //
 
-// export {
-//   firstName,
-//   lastName,
-//   job,
-// };
+export {
+firstName,
+lastName,
+job,
+};
